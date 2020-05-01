@@ -2,11 +2,14 @@
   "name": "paymentservice",
   "version": "0.0.1",
   "description": "Payment Microservice demo",
+  "main": "index.js",
   "scripts": {
 
   },
   "author": "Ela Shan",
   "dependencies": {
+    "express": "^4.16.4",
+    "cors": "^2.8.5",
     "uuid": "^3.2.1"
   },
   "devDependencies": {
