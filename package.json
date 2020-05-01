@@ -1,0 +1,15 @@
+{
+  "name": "paymentservice",
+  "version": "0.0.1",
+  "description": "Payment Microservice demo",
+  "scripts": {
+
+  },
+  "author": "Ela Shan",
+  "dependencies": {
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+
+  }
+}
