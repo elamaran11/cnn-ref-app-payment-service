@@ -4,7 +4,7 @@ services:
   payment:
     image: payment:latest
     ports:  
-      - 50051:50051
+      - 50051:80
 
   front-end:
     image: front-end:latest
