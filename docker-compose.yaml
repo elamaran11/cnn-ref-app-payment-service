@@ -39,7 +39,7 @@ services:
       - "ELASTIC_APM_SERVICE_NAME=Order-service"
       - "ELASTIC_APM_APPLICATION_PACKAGES=com.ewolff.microservice.order.logic"
       - "ELASTIC_APM_SERVER_URLS=http://elastic-apm-elk-dv.apps.dev.ose.keybank.com:80"
-      - "PAYMENT_SERVICE_URL=http://localhost:50051"
+      - "PAYMENT_SERVICE_URL=http://localhost:50051/payment"
     links:
       - db
 
